@@ -1,0 +1,160 @@
+@media only screen and (max-width: 600px) {
+    .nav-links ul {
+        display: none; /* Adjust the spacing between nav links for better mobile display */
+    }
+    nav img{
+        height: 5vh;
+        width: 20vw;
+        transform: translateX(150%);
+    }
+    .page2 {
+        height: 60vh;
+        width: 100%;
+    }
+
+    .page-content {
+        height: 100%;
+        width: 100%;
+        /* background-color: #F9CDDD; */
+        align-items: center;
+        /* transform: translateX(300%); */
+    }
+    .page-content h1{
+        padding-top: 10vh;
+        transform: translateX(165%);
+        width: 300%;
+        padding-bottom: 5vh;
+    }
+    .page-content p{
+        text-align: center;
+        transform: translateX(115%);
+        width: 400%;
+    }
+    .page2 h1 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .page2 img {
+        position: static;
+        /* transform: none; */
+        width: 200%;
+        height: 200%;
+    }
+
+    .page3 {
+        padding: 8vw;
+    }
+    .page3 .drink{
+        display: flex;
+        flex-direction: column;
+    }
+    .can img {
+        transform: none;
+    }
+
+    .can-desk {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .can-desk h1 {
+        font-size: 32px;
+        line-height: 32px;
+        padding-bottom: 1.5vw;
+    }
+
+    .can-desk p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .button a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .footer h1 a {
+        font-size: 26px;
+    }
+
+    .pro .img1 {
+        width: 30%;
+    }
+
+    .lleft img {
+        height: 4.3vh;
+        width: 9.5vw;
+        margin-bottom: 1vw;
+    }
+
+    .lleft h3 a {
+        font-size: 12px;
+    }
+
+    .llleft {
+        gap: 0.5vw;
+    }
+
+    .llright h1 {
+        font-size: 20px;
+        padding-bottom: 0.5vw;
+    }
+
+    .llright h5 {
+        font-size: 12px;
+        padding-bottom: 1vw;
+    }
+
+    .signup input {
+        height: 5vh;
+        width: 70%;
+    }
+
+    .buu a {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+    #page8 .can{
+        width: 110%;
+    }
+    .hero{
+        height: 100%;
+        width: 200%;
+    }
+    .footer-last{
+        /* height: 1vh; */
+        display: flex;
+        padding-top: 8vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer{
+        /* height: 300vh; */
+    }
+    .pro{
+        /* height: 100vh; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .lleft{
+        /* transform: translateX(10%); */
+        text-align: center;
+        padding-bottom: 5vw;
+    }
+    .lleft img{
+        width: 30vw;
+    }
+    .lright{
+        transform: translateX(33%);
+    }
+    .llleft{
+        gap: 15px;
+    }
+    .llright{
+        display: none;
+    }
+}

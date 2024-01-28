@@ -1,0 +1,362 @@
+@font-face {
+    font-family: main-font;
+    src: url(bitstream_-_amerigo_bt_bold-webfont.ttf);
+}
+@font-face {
+    font-family: euro;
+    src: url(Europa\ Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    background-color: #FFF7EB;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    z-index: -100;
+    background-image: url('minna-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+}
+.page1 nav{
+    height: 10vh;
+    width: 100%;
+    padding: 2vw 3.8vw;
+    padding-right: 8vw;
+    /* background-color: aqua; */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    height: 4.3vh;
+    width: 9.5vw;
+}
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    gap: 6vw;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #004534;
+    font-family: euro;
+    font-size: 18.5px;
+    font-weight: 500;
+}
+
+
+.page2{
+    height: 77vh;
+    width: 100%;
+    background-color: #FFF7EB;
+    position: relative;
+    z-index: -10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-content{
+    width: 44%;
+    /* background-color: aqua; */
+}
+.page2 h1{
+    font-family: main-font;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0.75px;
+    color: #004534;
+    text-align: center;
+    padding-bottom: 3vw;
+}
+.page2 p{
+    font-family: euro;
+    font-size: 18.5px;
+    color: #004534;
+    line-height: 28px;
+}
+.page2 img{
+    width: 100%;
+    position: absolute;
+    /* bottom: 0; */
+    z-index: -9;
+}
+.page3{
+    height: 120vh;
+    width: 100%;
+    background-color: #F9BDAE;
+    /* overflow: hidden; */
+    z-index: 10;
+    padding: 10vw;
+    padding-right: 20vw;
+    padding-bottom: 15vw;
+    /* padding-left: 5vw; */
+}
+.drink{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.can{
+    height: 100%;
+    width: 55%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.can img{
+    height: 125%;
+    width: 125%;
+    object-fit: cover;
+    object-position: center;
+    transform: translate(-6%,-5%);
+}
+.can-desk{
+    height: 100%;
+    width: 45%;
+    /* background-color: brown; */
+    padding-left: 2vw;
+}
+.can-desk h1{
+    font-family: main-font;
+    font-size: 75px;
+    line-height: 75px;
+    letter-spacing: 0.75px;
+    font-weight: 400;
+    color: #004534;
+    border-bottom: 1px solid #004534;
+    padding-bottom: 2.5vw;
+}
+.can-desk p{
+    font-family: euro;
+    font-size: 18.5px;
+    line-height: 28px;
+    color: #004534;
+    padding-bottom: 1.1vw;
+}
+.hey{
+    padding-top: 2.5vw;
+}
+.hey2{
+    padding-bottom: 2.5vw;
+}
+.nut{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2.5vw;
+}
+.nut a{
+    text-decoration: none;
+    color: #004534;
+    font-family: euro;
+    font-size: 18.5px;
+    border-bottom: 1px solid #004534;
+}
+.nut img{
+    height: 52%;
+    width: 48%;
+}
+.button{
+    /* background-color: #F5E65B; */
+    width: fit-content;
+}
+.button a {
+    text-decoration: none;
+    border: 2px solid #004534;
+    border-radius: 25px;
+    padding: 13px 26px;
+    font-size: 16.5px;
+    font-weight: 400;
+    font-family: euro;
+    color: #004534;
+    transition: all ease 0.3s;
+}
+.button a:hover{
+    background-color: #004534;
+    color: white;
+}
+#page4{
+    background-color: #FFC73B;
+}
+#page5{
+    background-color: #F5E65B;
+}
+#page6{
+    background-color: #F9CDDD;
+}
+#page7{
+    background-color: #CCE981;
+}
+#page8{
+    background-color: #b9edd650;
+    height: 110vh;
+    z-index: -100;
+    overflow: hidden;
+}
+#page8 .hero{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+.last-page{
+    height: 100vh;
+    width: 100%;
+    background-color: #FFF7EB;
+    z-index: -98;
+}
+.last-page .can img{
+    height: 100%;
+    width: 100%;
+}
+.last-page .lastwave{
+    height: 100%;
+    width: 100%;
+    z-index: -99;
+}
+
+.footer{
+    height: 107vh;
+    width: 100%;
+    background-color: #FFF7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer h1{
+    text-align: center;
+}
+.footer h1 a{
+    text-decoration: none;
+    font-size: 42px;
+    font-size: euro;
+    font-weight: 400;
+    border-bottom: 1px solid #0045345a;
+    color: #004534;
+}
+.pro{
+    height: 65vh;
+    width: 93%;
+    padding-top: 2vw;
+    padding-bottom: 2.5vw;
+    /* background-color: #CCE981; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pro .img1{
+    height: 100%;
+    width: 33%;
+}
+.pro .img1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.footer-last{
+    width: 100%;
+    height: 40%;
+    background-color: #004534;
+    padding: 3.2vw 3.5vw;
+    display: flex;
+}
+.lleft{
+    height: 100%;
+    width: 46%;
+    /* background-color: #F5E65B; */
+}
+.lleft img{
+    height: 6.2vh;
+    width: 14vw;
+    margin-bottom: 1.5vw;
+}
+.lleft h3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 12.5px;
+    font-family: euro;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    border-bottom: 1px solid #ffffff5a;
+}
+.lright{
+    height: 100%;
+    width: 54%;
+    /* background-color: #F9BDAE; */
+    display: flex;
+}
+.llleft{
+    padding-top: 1vw;
+    height: 100%;
+    width: 40%;
+    /* background-color: #FFC73B; */
+    display: flex;
+    gap: 1vw;
+}
+.llright{
+    height: 100%;
+    width: 60%;
+    /* background-color: #F5E65B; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.llright h1{
+    font-family: euro;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 1vw;
+}
+.llright h5{
+    font-family: euro;
+    font-size: 15.5px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 1.5vw;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.signup input{
+    height: 5.5vh;
+    width: 14vw;
+    border: none;
+}
+input::placeholder{
+    padding-left: 1vw;
+    font-family: euro;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.3);
+}
+.buu a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 37.5px;
+    font-size: 15.5px;
+    font-weight: 500;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+
